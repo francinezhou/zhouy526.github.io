@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'berthold_akzidenz_groteskBdEx';
+    src: url('fonts/berthold_akzidenz_grotesk_bold_extended-webfont.eot');
+    src: url('fonts/berthold_akzidenz_grotesk_bold_extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/berthold_akzidenz_grotesk_bold_extended-webfont.woff2') format('woff2'),
+         url('fonts/berthold_akzidenz_grotesk_bold_extended-webfont.woff') format('woff'),
+         url('fonts/berthold_akzidenz_grotesk_bold_extended-webfont.ttf') format('truetype'),
+         url('fonts/berthold_akzidenz_grotesk_bold_extended-webfont.svg#berthold_akzidenz_groteskBdEx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	font-family:  'Heiti SC','黑体-简';
+	font-size: 13.2px;
+}
+
+h1 {
+	font-family: 'berthold_akzidenz_groteskBdEx';
+	font-size: 50px;
+ }
+
+
+
+.logo{
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: 211px;
+    margin-left: -44px;
+}
+
+.center-menu{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -285px;
+    margin-left: -183px;
+}
+
+
+
+ 
+.location {
+	font-family:  'Heiti SC','黑体-简';
+}
+
+
+
+
+.main{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -115px;
+    margin-left: -136px;
+    overflow: auto;
+    z-index:  1;
+}
+
+element.style {
+    overflow: auto;
+}
+
+./* nth-child(1) = the first td in each tr */
+td:nth-child(1) {
+  width: 120px;
+  }
+
+/* the second */
+td:nth-child(2) {
+  width: 132px;
+}
+
+/* the third */
+td:nth-child(3) {
+  width: 20px;
+ }
+
+td:nth-child(4) {
+  width: 180px;
+ }
+
+
+
+

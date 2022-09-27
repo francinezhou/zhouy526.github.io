@@ -1,0 +1,25 @@
+
+body {
+  background-color: #e2ff59;
+  font-family: courier;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 9vw;
+  line-height: 1.1;
+  font-family: 'Yatra One', cursive;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 20px;
