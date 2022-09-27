@@ -1,24 +1,62 @@
 @font-face {
-	font-family: DinkieBitmap-9pxDemo;
-		src: url('DinkieBitmap-9pxDemo.eot');
-    	src: url('DinkieBitmap-9pxDemo.eot?#iefix') format('embedded-opentype'),
-        	 url('DinkieBitmap-9pxDemo.woff') format('woff'),
-        	 url('DinkieBitmap-9pxDemo.woff2') format('woff2'),
-        	 url('DinkieBitmap-9pxDemo.ttf') format('truetype');
+	font-family: 'burgess-regular';
+    src: url('fonts/burgess-regular.eot');
+    src: url('fonts/burgess-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/burgess-regular.woff') format('woff'),
+         url('fonts/burgess-regular.woff2') format('woff2'),
+         url('fonts/burgess-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap
 }
+
+@font-face {
+    font-family: 'Big Caslon FB';
+    src: url('fonts/BigCaslonFB-Black.woff2') format('woff2'),
+        url('fonts/BigCaslonFB-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 body {
-	font-family: 'Crimson Pro', serif;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 25px;
+	line-height: 1.4;
+	padding-top: 50px;
 }
 
-.content {
-	font-family:  'courier';
+
+.wrapper {
+	max-width: 750px;
+	margin:  0 auto;
 }
+
+.heading {
+	text-align: center;
+}
+
+.author {
+	background-color: yellow;
+}
+
+a.author {
+	text-decoration: none;
+}
+
+
+a.author:hover {
+	background-color: black;
+	color:  white;
+	cursor:  pointer;
+}
+
 
 h1 {
 	font-size: 50px;
+	margin: 0px;
+	letter-spacing: 0;
 }
 
 h1 {
@@ -27,4 +65,5 @@ h1 {
 
 h1, h2 {
 	font-weight: 400;
+	font-family: burgess-regular, sans-serif;
 }
