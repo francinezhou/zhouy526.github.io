@@ -40,7 +40,7 @@ body {
 
 .long-way {
   font-style: italic;
-  transition: all 10s ease-in-out;
+  transition: all 5s ease-in-out;
 }
 
 .long-way:hover {
@@ -53,6 +53,8 @@ body {
   color: #000;
   background-color: #f2e1ff;
   transition: all 0.1s ease;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .simplelink:hover {
@@ -158,8 +160,8 @@ transition: all 0.5s ease;
 }
 
 .palm:hover {
-  -webkit-transform: rotate(-360deg) scale(2);
-  transform: rotate(-360deg) scale(2);
+  -webkit-transform: rotate(360deg) scale(4);
+  transform: rotate(360deg) scale(4);
   cursor: pointer;
 }
 
@@ -203,7 +205,7 @@ transition: all 0.5s ease;
   border-radius: 30px;
   width: 200px;
   height: 150px;
-  background-color: #ffe002;
+  background-color: pink;
   -webkit-transform: scale(2.25);
   cursor: pointer;
 }
@@ -221,7 +223,10 @@ transition: all 0.5s ease;
 .imgfilters img:hover {
   filter: none;
   cursor: pointer;
+  filter: blur(8px);
 }
+
+
 
 /* sixth paragraph - hovers */
 

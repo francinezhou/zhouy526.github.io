@@ -36,10 +36,8 @@ h1 {
     left: 50%;
     top: 50%;
     margin-top: -285px;
-    margin-left: -183px;
+    margin-left: -178px;
 }
-
-
 
  
 .location {
@@ -47,14 +45,12 @@ h1 {
 }
 
 
-
-
 .main{
     position: fixed;
     left: 50%;
     top: 50%;
     margin-top: -115px;
-    margin-left: -136px;
+    margin-left: -129px;
     overflow: auto;
     z-index:  1;
 }
@@ -65,22 +61,72 @@ element.style {
 
 ./* nth-child(1) = the first td in each tr */
 td:nth-child(1) {
-  width: 120px;
+  width: 25px;
+  height: 343px;
+  text-align: right;
   }
 
 /* the second */
 td:nth-child(2) {
-  width: 132px;
+  width: 100px;
+  height: 343px;
+  padding-top: 4px;
 }
 
 /* the third */
 td:nth-child(3) {
-  width: 20px;
+  width: 23px;
+  height: 343px;
+  text-align: right;
  }
 
 td:nth-child(4) {
-  width: 180px;
+  width: 130px;
+  height: 343px;
+  padding-top: 4px;
  }
+
+.openhours {
+    position: fixed;
+    right: 50%;
+    margin-top: -115px;
+    margin-left: -136px;
+    z-index:  0;
+}
+
+
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt {
+  z-index:99;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+    z-index: 2
+}
+
+.hiddenimg2 {
+  display: none;
+}
+
+.hiddentxt2 {
+  z-index:99;
+}
+
+.hiddentxt2:hover ~ .hiddenimg2 {
+  display: block;
+  position: fixed;
+  left: 0%;
+  top: 30%;
+    z-index: 2
+}
 
 
 
