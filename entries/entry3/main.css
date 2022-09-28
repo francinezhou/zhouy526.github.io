@@ -37,6 +37,7 @@ h1 {
     top: 50%;
     margin-top: -285px;
     margin-left: -178px;
+    z-index:  0;
 }
 
  
@@ -52,7 +53,7 @@ h1 {
     margin-top: -115px;
     margin-left: -129px;
     overflow: auto;
-    z-index:  1;
+    z-index:  2;
 }
 
 element.style {
@@ -109,7 +110,7 @@ td:nth-child(4) {
   position: fixed;
   left: 0%;
   top: 0%;
-    z-index: 2
+    z-index: -1
 }
 
 .hiddenimg2 {
@@ -125,9 +126,70 @@ td:nth-child(4) {
   position: fixed;
   left: 0%;
   top: 30%;
-    z-index: 2
+    z-index: -1
 }
 
+.hiddenimg3 {
+  display: none;
+}
 
+.hiddentxt3 {
+  z-index:99;
+}
 
+.hiddentxt3:hover ~ .hiddenimg3 {
+  display: block;
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+    z-index: -1
+}
+
+.hiddenimg4 {
+  display: none;
+}
+
+.hiddentxt4 {
+  z-index:99;
+}
+
+.hiddentxt4:hover ~ .hiddenimg4 {
+  display: block;
+  position: fixed;
+  right: 0%;
+  top: 0%;
+    z-index: -1
+}
+
+.hiddenimg5 {
+  display: none;
+}
+
+.hiddentxt5 {
+  z-index:99;
+}
+
+.hiddentxt5:hover ~ .hiddenimg5 {
+  display: block;
+  position: fixed;
+  right: 0%;
+  top: 30%;
+    z-index: -1
+}
+
+.hiddenimg6 {
+  display: none;
+}
+
+.hiddentxt6 {
+  z-index:99;
+}
+
+.hiddentxt6:hover ~ .hiddenimg6 {
+  display: block;
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+    z-index: -1
+}
 
