@@ -23,17 +23,19 @@ h1 {
 
 .time-place {
   position: fixed;
+  text-align: right;
     right: 1%;
     top: 1%;
-    z-index:  0;
+    z-index: 0;
 }
 
-.time-place {
+.quote {
   font-family:  'Heiti SC','黑体-简';
   position: fixed;
-    right: 1%;
-    top: 1%;
-    z-index:  0;
+  width: 25px;
+    left: 20%;
+    top: 10%;
+    z-index: 0;
 }
 
 .menu-img{
@@ -132,7 +134,7 @@ td:nth-child(4) {
   display: block;
   position: fixed;
   left: 0%;
-  top: 33%;
+  top: 35%;
     z-index: -1
 }
 
@@ -164,7 +166,7 @@ td:nth-child(4) {
   display: block;
   position: fixed;
   right: 0%;
-  top: 5%;
+  top: 10%;
     z-index: -1
 }
 
@@ -180,7 +182,7 @@ td:nth-child(4) {
   display: block;
   position: fixed;
   right: 0%;
-  top: 33%;
+  top: 35%;
     z-index: -1
 }
 
