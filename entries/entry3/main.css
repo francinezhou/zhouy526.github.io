@@ -21,17 +21,22 @@ h1 {
 	font-size: 50px;
  }
 
-
-
-.logo{
-	position: fixed;
-    left: 50%;
-    top: 50%;
-    margin-top: 211px;
-    margin-left: -44px;
+.time-place {
+  position: fixed;
+    right: 1%;
+    top: 1%;
+    z-index:  0;
 }
 
-.center-menu{
+.time-place {
+  font-family:  'Heiti SC','黑体-简';
+  position: fixed;
+    right: 1%;
+    top: 1%;
+    z-index:  0;
+}
+
+.menu-img{
     position: fixed;
     left: 50%;
     top: 50%;
@@ -40,11 +45,13 @@ h1 {
     z-index:  0;
 }
 
- 
-.location {
-	font-family:  'Heiti SC','黑体-简';
+.logo{
+  position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: 211px;
+    margin-left: -44px;
 }
-
 
 .main{
     position: fixed;
@@ -125,7 +132,7 @@ td:nth-child(4) {
   display: block;
   position: fixed;
   left: 0%;
-  top: 30%;
+  top: 33%;
     z-index: -1
 }
 
@@ -157,7 +164,7 @@ td:nth-child(4) {
   display: block;
   position: fixed;
   right: 0%;
-  top: 0%;
+  top: 5%;
     z-index: -1
 }
 
@@ -173,7 +180,7 @@ td:nth-child(4) {
   display: block;
   position: fixed;
   right: 0%;
-  top: 30%;
+  top: 33%;
     z-index: -1
 }
 
