@@ -4,11 +4,6 @@ body{
   background: #d3d3d3;
 }
 
-h1{
-  color: black;
-  font-size: 3em;
-  letter-spacing:1px;
-}
 
 p{
   color: #EEE;
@@ -31,6 +26,8 @@ p{
   background-size: contain;
   
   height: 600px;
+
+  margin: -9px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -41,9 +38,9 @@ p{
 .cycle{
   position: absolute;
   display: block;
-  width: 100px;
-  height: 100px;
-  transparent: 80px;rgba(255,255,255,0.75) 90px
+  width: 120px;
+  height: 120px;
+  transparent: 80px,rgba(255,255,255,0.75),90px;
   background: transparent;
 
   border: 2800px #ffffff solid;
@@ -61,7 +58,7 @@ h4{
   color: black;
   font-size: 3em;
   letter-spacing:1px;
-  cursor: url(imgs/moon-emoji.png), auto;
+  cursor: url(imgs/emoji-67px.png), auto;
   z-index: 99;
   background-color: white;
 }
@@ -83,11 +80,13 @@ button{
 }
 
 .button1{
-  position:fixed;
+  position:absolute;
+  margin-top: -200px;
+  margin-left: 0px;
 }
 
 .button2{
-  position:fixed;
+  position:absolute;
   margin: 50px;
 }
 
@@ -97,33 +96,35 @@ h2{
 }
 
 .findmoon {
-    position:absolute;
+    position:fixed;
     background:white;
     bottom:0;
     left:0;
-    width: 300px;
-    cursor: url(imgs/moon-emoji.png), auto;
+    padding-left: 20px;
+    width: 610px;
+    cursor: url(imgs/emoji-67px.png), auto;
     color: black;
     text-align: left;
     bottom: 0%;
-    font-size: 40px;
-    line-height: 2;
+    font-size: 85px;
+    line-height: 1.2;
     z-index: 99;
 
 }
 
 .foundmoon {
-    position:absolute;
+    position:fixed;
     background:white;
     bottom:0;
     left:0;
-    width: 350px;
-    cursor: url(imgs/moon-emoji.png), auto;
+    padding-left: 20px;
+    width: 680px;
+    cursor: url(imgs/emoji-67px.png), auto;
     color: black;
     text-align: left;
     bottom: 0%;
-    font-size: 40px;
-    line-height: 2;
+    font-size: 85px;
+    line-height: 1.2;
     z-index: 99;
 
 }
@@ -193,7 +194,7 @@ div.concave-background {
 } 
 
 .botleftconcave {
-  cursor: url(imgs/moon-emoji.png), auto;
+  cursor: url(imgs/emoji-67px.png), auto;
 }
 
 .title {
@@ -214,6 +215,7 @@ div.concave-background {
   margin-top: 30px;
   display: block;
 }
+
 
 
 
