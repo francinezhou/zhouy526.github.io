@@ -71,7 +71,7 @@ h4{
 
 button{
    color: #000; /* Fallback for older browsers */
-    color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0);
   background-color: Transparent;
     border: none;
     cursor:pointer;
@@ -91,7 +91,7 @@ button{
 }*/
 
 h2{
-  font-size:60px;
+  font-size:65px;
   margin: -5px
 }
 
