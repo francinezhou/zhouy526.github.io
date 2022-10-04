@@ -6,13 +6,13 @@ body{
 
 
 p{
-  color: #EEE;
+  color: #C0C0C0;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 /*
-.Grid{
+.Grid{ #FF5733
   display: flex;  
   margin: 0px auto;
   width: 650px;
@@ -64,8 +64,39 @@ h4{
 }
 
 
+.en-quote{
+  position: absolute;
+  right: 34%;
+  top: 30%;
+  width: 180px;
+  z-index: 99;
+}
 
 
+.night {
+  color: #C0C0C0;
+  cursor: pointer;
+}
+
+.night:hover {
+  color: #EEE;}
+
+.date {
+  position: fixed;
+  text-align: right;
+  right: 1%;
+  top: 1%;
+  font-size: 30px;
+  opacity: 0;
+  color: black;
+  z-index: 99;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.en-quote:hover .date {
+  opacity: 1;
+  
+  }
 
 
 
@@ -109,7 +140,6 @@ h2{
     font-size: 85px;
     line-height: 1.2;
     z-index: 99;
-
 }
 
 .foundmoon {
@@ -126,7 +156,6 @@ h2{
     font-size: 85px;
     line-height: 1.2;
     z-index: 99;
-
 }
 
  button:hover .foundmoon {
