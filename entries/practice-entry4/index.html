@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>
+	Moon
+	</title>
+</head>
+<body>
+	
+	
+	<span class="title">Find the Moon!</span>
+	<div class="antique-moon"></div>
+	<div class="anitque"><img src="imgs/antique.jpg" width="360px"></div>	
+ 	<div class="spotlight"></div>
+
+    <script>
+        var focusedCard = document.querySelector('.spotlight');
+
+        window.addEventListener('mousemove', e => {
+
+            /* Get mouse page coordinates */
+            var percentageX = e.pageX / window.innerWidth * 100;
+            var percentageY = e.pageY / window.innerHeight * 100;
+
+            /* Center the background spotlight on mouse coordinates */
+            focusedCard.style.backgroundImage = `radial-gradient(circle at ${percentageX}% ${percentageY}%, transparent 80px, rgba(255,255,255,0.75) 90px`
+        })
+    </script>
+<div class="a">
+	<h1>Find the Moon!</h1>
+	<p>This is a paragraph.</p>
+	<p>This is a paragraph.</p>
+	</div>
+</body>
+</html>

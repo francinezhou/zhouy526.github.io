@@ -1,34 +1,36 @@
 body{
  font-family: sans-serif;
   text-align: center;
-  background: #232323
+  background: #d3d3d3;
 }
 
 h1{
-  color: #3B76FF;
+  color: black;
   font-size: 3em;
   letter-spacing:1px;
 }
 
 p{
   color: #EEE;
-  margin-top: -20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
+/*
 .Grid{
   display: flex;  
   margin: 0px auto;
   width: 650px;
   flex-wrap: wrap;
-  grid-gap: 25px;
-}
+  grid-gap: 5px;
+}*/
+
 
 .Grid__box{
-  background: url(https://images.pexels.com/photos/4186304/pexels-photo-4186304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-size: cover;
-  width: 200px;
-  height: 200px;
+  background: url(imgs/antique.jpg);
+  background-size: contain;
+  
+  height: 600px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -36,22 +38,16 @@ p{
   position: relative;
 }
 
-.Grid__box h3{
-  position: relative;
-  color: #fff;
-  pointer-events: none;
-  z-index: 2;
-}
-
 .cycle{
   position: absolute;
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
+  transparent: 80px;rgba(255,255,255,0.75) 90px
   background: transparent;
-  border: 400px #565656 solid;
-  border-radius: 10000px;
-  left: -100px
+
+  border: 2800px #ffffff solid;
+  border-radius: 20000px;
 }
 
 
@@ -59,3 +55,166 @@ p{
   opacity: 1;
   left: auto;
 }
+
+
+h4{
+  color: black;
+  font-size: 3em;
+  letter-spacing:1px;
+  cursor: url(imgs/moon-emoji.png), auto;
+  z-index: 99;
+  background-color: white;
+}
+
+
+
+
+
+
+
+button{
+   color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.2);
+  background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    z-index: 98;  
+}
+
+.button1{
+  position:fixed;
+}
+
+.button2{
+  position:fixed;
+  margin: 50px;
+}
+
+h2{
+  font-size:50px;
+  margin: -5px
+}
+
+.findmoon {
+    position:absolute;
+    background:white;
+    bottom:0;
+    left:0;
+    width: 300px;
+    cursor: url(imgs/moon-emoji.png), auto;
+    color: black;
+    text-align: left;
+    bottom: 0%;
+    font-size: 40px;
+    line-height: 2;
+    z-index: 99;
+
+}
+
+.foundmoon {
+    position:absolute;
+    background:white;
+    bottom:0;
+    left:0;
+    width: 350px;
+    cursor: url(imgs/moon-emoji.png), auto;
+    color: black;
+    text-align: left;
+    bottom: 0%;
+    font-size: 40px;
+    line-height: 2;
+    z-index: 99;
+
+}
+
+ button:hover .foundmoon {
+  display:block;}
+
+.foundmoon {
+  display:none;}
+
+button:hover ~  .foundmoon {
+  display:block;}
+  
+button:hover ~  .findmoon {
+  display:none;}
+
+/*.Grid__box .a button:hover ~  .cycle {
+  border: 100px #000000 solid}*/
+
+
+
+
+
+
+
+/*
+.buttonmoon {
+  z-index: 99;
+  background:rgba(0,0,0,0);
+  width:50px;
+  height:50px;
+  text-align:center;
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+
+}
+*/
+
+
+
+
+
+
+div.concave {
+    bottom: 0%;
+    height:350px;
+    position:relative;
+}
+
+div.concave-background {
+  bottom: 0%;
+    height:350px;
+    position:relative;
+}
+
+
+.botleftconcave {
+    position:absolute;
+    background:white;
+    width:450px;
+    height:130px;
+    bottom:0;
+    left:0;
+} 
+
+.botleftconcave {
+  cursor: url(imgs/moon-emoji.png), auto;
+}
+
+.title {
+    color: black;
+    text-align: left;
+    bottom: 0%;
+    font-size: 20px;
+    line-height: 1.4;
+    z-index: 1;
+   
+}
+
+
+.antique{
+  display: block;
+  position:absolute;
+  left: 70px;
+  margin-top: 30px;
+  display: block;
+}
+
+
+
+
