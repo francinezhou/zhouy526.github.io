@@ -15,16 +15,14 @@
 		  <!--<button><span class="button2"><h2>⬤</h2></span>
 		  </button>-->
 		<div class="en-quote">
-                <p>The full moon accompanied me the <span class="night">entire night</span>.
+                <p>The <span class="full-moon">full moon</span> accompanied me the <span class="night">entire night</span>.
                 <div class="date">June 24, 2021</div></div><p>
-        <div class="cn-quote">那一晚，月亮与我如影随行</div>
+        <div class="cn-quote">月亮与我如影随行<br>那一晚,</div>
 		<div class="foundmoon"> Found the Moon!</div>
-		<div class="findmoon"> Find the Moon!</div>
+		<div class="findmoon"> Find the Moon...</div>
 		
 	</div>
   </div>
-
-
 
 <script type="text/javascript">var Boxes = document.querySelectorAll(".Grid__box");
 // generate cycles
@@ -39,8 +37,8 @@ Box.addEventListener('mousemove', function (e) {
   var y = e.clientY;
   var BoxOffset = Box.getBoundingClientRect();
 
-  var newposX = x - BoxOffset.left - 665;
-  var newposY = y - BoxOffset.top - 295;
+  var newposX = x - BoxOffset.left - 675;
+  var newposY = y - BoxOffset.top - 311;
   Cycle.style.transform = "translate("+newposX+"px, "+newposY+"px)";
 });
   
