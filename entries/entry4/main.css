@@ -54,15 +54,6 @@ p{
 }
 
 
-h4{
-  color: black;
-  font-size: 3em;
-  letter-spacing:1px;
-  cursor: url(imgs/emoji-67px.png), auto;
-  z-index: 99;
-  background-color: white;
-}
-
 
 .en-quote{
   position: absolute;
@@ -94,7 +85,7 @@ h4{
   color: black;
   z-index: 99;
   /*-webkit-transition: all .5s ease-in-out;*/
-  background: linear-gradient(to right, darkblue,slategrey,lightgrey,yellow);
+  background: linear-gradient(to left, darkblue,slategrey,lightgrey,yellow);
   background-size: 200% 200%;
   animation: rainbow 2s ease-in-out infinite;
   background-clip: text;
@@ -108,10 +99,6 @@ h4{
   color:rgba(0,0,0,0);
   }
 
-
-.date:hover{
-  
-}
 @keyframes rainbow { 
   0%{background-position:left}
   50%{background-position:right}
@@ -160,32 +147,33 @@ h2{
 .findmoon {
     position:fixed;
     background:white;
-    bottom:0;
+    
     left:0;
-    padding-left: 20px;
+    
+    padding: 20px;
     width: 620px;
-    cursor: url(imgs/emoji-67px.png), auto;
+    cursor: url(imgs/emoji-50.png), auto;
     color: black;
     text-align: left;
     bottom: 0%;
     font-size: 85px;
-    line-height: 1.2;
+  
     z-index: 99;
 }
 
 .foundmoon {
     position:fixed;
     background:white;
-    bottom:0;
     left:0;
-    padding-left: 20px;
+    padding: 20px;
+    
     width: 680px;
-    cursor: url(imgs/emoji-67px.png), auto;
+    cursor: url(imgs/emoji-50.png), auto;
     color: black;
     text-align: left;
     bottom: 0%;
     font-size: 85px;
-    line-height: 1.2;
+    
     z-index: 99;
 }
 
