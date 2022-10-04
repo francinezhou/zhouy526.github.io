@@ -82,7 +82,7 @@ button{
 .button1{
   position:absolute;
   margin-top: -200px;
-  margin-left: -20px;
+  margin-left: -30px;
 }
 
 /*.button2{
@@ -91,7 +91,7 @@ button{
 }*/
 
 h2{
-  font-size:50px;
+  font-size:60px;
   margin: -5px
 }
 
