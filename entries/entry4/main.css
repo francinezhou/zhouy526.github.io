@@ -1,5 +1,17 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
- font-family: sans-serif;
+ font-family: Helvetica Neue;
   text-align: center;
   background: #d3d3d3;
 }
@@ -36,8 +48,8 @@ height: 1510px;
 .cycle{
   position: absolute;
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   box-shadow: inset 0 3px 10px #ffffff;
   background: transparent;
   border: 2800px #ffffff solid;
@@ -211,14 +223,14 @@ h3{
 }
 
 h4{
-  font-size:440px; 
-  margin-top:-5px;
+  font-size:420px; 
+  margin:-5px;
 }
 
 .button6 {
   position:absolute;
-  top: 893px;
-  left: 703px;
+  top: 867px;
+  left: 710px;
 }
 
 
@@ -228,11 +240,12 @@ h4{
     position:fixed;
     background:white;
     left:0;
-    width: 620px;
+    width: 670px;
     cursor: url(imgs/emoji-50.png), auto;
     color: black;
     text-align: left;
-    bottom: 0%;
+    bottom: 0;
+    padding: 7.5px;
     font-size: 85px;
     z-index: 99;
 }
@@ -241,13 +254,12 @@ h4{
     position:fixed;
     background:white;
     left:0;
-    
-    
     width: 680px;
     cursor: url(imgs/emoji-50.png), auto;
     color: black;
     text-align: left;
-    bottom: 0%;
+    bottom: 0;
+    padding: 7.5px;
     font-size: 85px;
     
     z-index: 99;
@@ -260,83 +272,24 @@ h4{
   display:none;}
 
 button:hover ~  .foundmoon {
-  display:block;}
-  
+  display:block;
+  text-decoration: underline;
+}
+
 button:hover ~  .findmoon {
   display:none;}
 
 
+.button1:hover .en-quote {
+  color: yellow;}
 
 
 
 
 
 
-/*
-.buttonmoon {
-  z-index: 99;
-  background:rgba(0,0,0,0);
-  width:50px;
-  height:50px;
-  text-align:center;
-  background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;  
-
-}
-*/
 
 
-
-
-
-
-div.concave {
-    bottom: 0%;
-    height:350px;
-    position:relative;
-}
-
-div.concave-background {
-  bottom: 0%;
-    height:350px;
-    position:relative;
-}
-
-
-.botleftconcave {
-    position:absolute;
-    background:white;
-    width:450px;
-    height:130px;
-    bottom:0;
-    left:0;
-} 
-
-.botleftconcave {
-  cursor: url(imgs/emoji-67px.png), auto;
-}
-
-.title {
-    color: black;
-    text-align: left;
-    bottom: 0%;
-    font-size: 20px;
-    line-height: 1.4;
-    z-index: 1;
-   
-}
-
-
-.antique{
-  display: block;
-  position:absolute;
-  left: 70px;
-  margin-top: 30px;
-  display: block;
-}
 
 
 

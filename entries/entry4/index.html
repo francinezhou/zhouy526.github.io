@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="main.css">
+    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
 	<title>
     Find the Moon!
 	</title>
@@ -23,7 +24,7 @@
         <button><span class="button4"><h2>⬤</h2></span></button>
         <button><span class="button5"><h3>⬤</h3></span></button>
         <button><span class="button6"><h4>◗</h4></span></button>
-		<div class="foundmoon"> Found the Moon!</div>
+		<div class="foundmoon"> Found the <span class="headlinemoon">Moon</span>!</div>
 		<div class="findmoon"> Find the Moon...</div>
         <div class="corner-box"></div>
 		
@@ -43,8 +44,8 @@ Box.addEventListener('mousemove', function (e) {
   var y = e.clientY;
   var BoxOffset = Box.getBoundingClientRect();
 
-  var newposX = x - BoxOffset.left - 740;
-  var newposY = y - BoxOffset.top - 800;
+  var newposX = x - BoxOffset.left - 752;
+  var newposY = y - BoxOffset.top - 747;
   Cycle.style.transform = "translate("+newposX+"px, "+newposY+"px)";
 });
   
@@ -55,18 +56,6 @@ Box.addEventListener('mousemove', function (e) {
 });
 </script> 
 
-<!--<div class="concave">
-	<div class="concave-background"> 
-		<div class=antique>
-		<img src="imgs/antique.jpg" width="200px">
-		</div>
-	</div>
-	<div class="botleftconcave">
-		<div class="title">
-		<h1>Find the Moon!</h1>
-		</div>
-	</div>
-</div>-->
 
 
 
