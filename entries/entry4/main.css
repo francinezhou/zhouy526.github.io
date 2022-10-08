@@ -69,6 +69,9 @@ height: 1510px;
   top: 11%;
   width: 180px;
   z-index: 99;
+  color: #C0C0C0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .full-moon{
@@ -280,8 +283,6 @@ button:hover ~  .findmoon {
   display:none;}
 
 
-.button1:hover .en-quote {
-  color: yellow;}
 
 
 
