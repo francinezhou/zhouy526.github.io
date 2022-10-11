@@ -24,7 +24,7 @@ background: linear-gradient(234deg, rgba(170,233,233,1) 0%, rgba(203,246,188,1) 
   font-family: 'PT Mono', monospace;
   color:  #042135;
   
-  min-width: 450px;
+  min-width: 480px;
 }
 
 .card {
@@ -48,7 +48,7 @@ background: linear-gradient(234deg, rgba(170,233,233,1) 0%, rgba(203,246,188,1) 
   color:  #042135;
   font-size:  10px;
   text-align:  center;
-  min-width: 450px;
+  min-width: 480px;
 }
 /*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
 * {box-sizing:  border-box;}                    
@@ -116,4 +116,14 @@ background-position: 0 0, 40px 60px, 130px 170px, 70px 80px;
 
 .item10 {
   background-color:  #FFB3B3;
+}
+
+.top-right {
+  width: 200px;
+
+  right: 2%;
+   font-family: 'PT Mono', monospace;
+  color:  #042135;
+  font-size:  10px;
+  z-index: 1;
 }
