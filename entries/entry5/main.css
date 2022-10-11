@@ -3,6 +3,25 @@ body {
 background: linear-gradient(234deg, rgba(170,233,233,1) 0%, rgba(203,246,188,1) 36%, rgba(231,255,187,1) 55%, rgba(255,149,202,1) 100%);
 }
 
+p {
+  font-family: 'PT Mono', monospace;
+  color:  #042135;
+  font-size:  12px;
+}
+
+.top-right {
+  width: 160px;
+  position: fixed;
+  text-align: right;
+    right: 1%;
+    top: 1%;
+  z-index: 1;
+}
+
+h2{
+
+}
+
 .container {
  display: flex;
   height: 50vh;
@@ -23,13 +42,12 @@ background: linear-gradient(234deg, rgba(170,233,233,1) 0%, rgba(203,246,188,1) 
   min-height: 200px;
   font-family: 'PT Mono', monospace;
   color:  #042135;
-  
   min-width: 480px;
 }
 
 .card {
  display: flex;
-  height: 10vh;
+  height: 12vh;
   flex-direction:  row;
   justify-content: center;
   align-items: stretch;
@@ -46,7 +64,7 @@ background: linear-gradient(234deg, rgba(170,233,233,1) 0%, rgba(203,246,188,1) 
   min-height: 55px;
   font-family: 'PT Mono', monospace;
   color:  #042135;
-  font-size:  10px;
+  font-size:  12px;
   text-align:  center;
   min-width: 480px;
 }
@@ -69,9 +87,11 @@ background: linear-gradient(234deg, rgba(170,233,233,1) 0%, rgba(203,246,188,1) 
 }
 
 
-  .item1 {
+  .interior {
+    height: 40px;
+  border-radius: 25px 25px 0px 0px;
   background-color: #f64ea2;
-  /*align-self: flex-end;*/
+ 
 }
 
 
@@ -118,15 +138,5 @@ background-position: 0 0, 40px 60px, 130px 170px, 70px 80px;
   background-color:  #FFB3B3;
 }
 
-.top-right {
-  width: 130px;
-position: fixed;
-  text-align: right;
-    right: 1%;
-    top: 1%;
-   
-   font-family: 'PT Mono', monospace;
-  color:  #042135;
-  font-size:  10px;
-  z-index: 1;
-}
+
+
