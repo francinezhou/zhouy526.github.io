@@ -1,0 +1,93 @@
+
+body {
+  background-color: #D4E4FC;
+  font-family: poppins, medium;
+}
+
+.container {
+  position: relative;
+  height: 1000px;
+/*  text-align: center;*/
+}
+
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+
+.time-place {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 4vh;
+}
+
+.blanket { 
+  position: absolute;
+  left: 35%;
+  top: 0%;
+  height: 21vw;
+  overflow: hidden;
+  display: flex;
+}
+
+
+.tree { 
+  position: absolute;
+  left: 0%;
+  top: 18%;
+  width: 25vw;
+  overflow: hidden;
+  display: flex;
+}
+
+.coffee { 
+  position: absolute;
+  left: 32%;
+  bottom: 0%;
+  width: 24vw;
+  overflow: hidden;
+  display: flex;
+}
+
+.building { 
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 33vw;
+  overflow: hidden;
+  display: flex;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: -120px
+}
+
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: 'Poppins', medium;
+  margin-bottom: 0;
+  color: #023179;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: 'Source Han Sans CN Medium';
+  color: #16417F;
+  margin-top: -13px;
+}
+
+
+
