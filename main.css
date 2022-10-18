@@ -23,3 +23,21 @@ h1 {
 
 h2 {
   font-size: 20px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+}
+
+.about {
+  position: absolute;
+  width: 300px;
+  top: 10%;
+  right: 4%;
+  display: none;
+}
+
+.heading:hover ~ .about {
+  display: block;
