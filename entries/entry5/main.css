@@ -1,5 +1,6 @@
 body {
- background: rgb(170,233,233);
+
+*/ background: rgb(170,233,233);
 background: linear-gradient(234deg, rgba(170,233,233,1) 0%, rgba(203,246,188,1) 36%, rgba(231,255,187,1) 55%, rgba(255,149,202,1) 100%);
 }
 
@@ -9,12 +10,27 @@ p {
   font-size:  12px;
 }
 
-.top-right {
+.place-time {
   width: 160px;
   position: fixed;
   text-align: right;
-    right: 1%;
-    top: 1%;
+  padding-top: 16px;
+  right: 1%;
+  top: 1%;
+  z-index: 1;
+}
+
+.top {
+  height: 30px;
+}
+
+.en-quote {
+  width: 280px;
+  position: fixed;
+  text-align: center;
+  padding-top: 16px;
+  left: 1%;
+  top: 35%;
   z-index: 1;
 }
 
@@ -29,7 +45,6 @@ h2{
   justify-content: center;
   align-items: stretch;
   padding:6px;
-  
   margin-left: 300px;
   margin-right: 300px;
   background-color: background: rgb(91,91,92);
@@ -44,6 +59,18 @@ h2{
   color:  #042135;
   min-width: 480px;
 }
+.container::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-size: 40px;
+  background-image:
+    radial-gradient(circle at 20px -5px , #fff 24px, transparent 26px);
+
+  }
 
 .card {
  display: flex;
@@ -84,58 +111,119 @@ h2{
   border-radius: 25px;
   outline: 4px inset lightgray;
   cursor: url(imgs/scoop.png),auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
-
-  .interior {
-    height: 40px;
-  border-radius: 25px 25px 0px 0px;
-  background-color: #f64ea2;
- 
+.interior1 {
+    height: 37vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #f64ea2;
 }
-
 
 .item2 {
-  background-color:  #ffecec;
+ /* background-color:  #ffecec;*/
+}
+
+.interior2 {
+    height: 26vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #ffecec;
 }
 
 .item3 {
-  background-color:  #B3D9FF;
+/*  background-color:  #B3D9FF;*/
+}
+
+.interior3 {
+    height: 38vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #B3D9FF;
 }
 
 .item4 {
-  background-color:  #FFCCD5;
+  /*background-color:  #FFCCD5;*/
+}
+
+.interior4 {
+    height: 34vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #FFCCD5;
 }
 
 .item5 {
-  background-color:  #79c459;
+/*  background-color:  #79c459;*/
+}
+
+.interior5 {
+    height: 42vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #79c459;
 }
 
 .item6 {
-  background-color:  #fff9c6;
+ /* background-color:  #fff9c6;*/
+}
+
+.interior6 {
+    height: 38vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #fff9c6;
 }
 
 .item7 {
-  background-color:  #dcbee3;
+  /*background-color:  #dcbee3;*/
+}
+
+.interior7 {
+    height: 42vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #dcbee3;
 }
 
 .item8 {
-  background-color:  #d4ff9c;
+  /*background-color:  #d4ff9c;*/
+}
+
+.interior8 {
+    height: 33vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #d4ff9c;
 }
 
 .item9 {
-  background-color:#d6b9af;
+  /*background-color:#d6b9af;
 background-image:
 radial-gradient(dimgrey, rgba(255,255,255,.2) 2px, transparent 40px),
 radial-gradient(dimgrey, rgba(255,255,255,.15) 1px, transparent 30px),
 radial-gradient(dimgrey, rgba(255,255,255,.1) 2px, transparent 40px),
 radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
 background-size: 200px 200px, 150px 150px, 150px 150px, 50px 150px;
-background-position: 0 0, 40px 60px, 130px 170px, 70px 80px;
+background-position: 0 0, 40px 60px, 130px 170px, 70px 80px;*/
+}
+
+.interior9 {
+    height: 38vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color:#d6b9af;
+    background-image:
+    radial-gradient(dimgrey, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(dimgrey, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(dimgrey, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 200px 200px, 150px 150px, 150px 150px, 50px 150px;
+    background-position: 0 0, 40px 60px, 130px 170px, 70px 80px;
 }
 
 .item10 {
-  background-color:  #FFB3B3;
+  /*background-color:  #FFB3B3;*/
+}
+
+.interior10 {
+    height: 27vh;
+    border-radius: 0px 0px 25px 25px;
+    background-color: #FFB3B3;
 }
 
 

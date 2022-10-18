@@ -5,9 +5,11 @@ body {
 }
 
 .container {
-  position: relative;
-  height: 1000px;
-/*  text-align: center;*/
+  position: absolute;
+  width: 100%;
+  height: 980px;
+  margin: -8.5px;
+
 }
 
 img {
@@ -18,18 +20,29 @@ img {
   object-fit: cover;
 }
 
-.time-place {
+.place-time {
   position: absolute;
   top: 8px;
   right: 16px;
-  font-size: 4vh;
+  font-size: 3.5vh;
+  text-align: right;
 }
+
+.place:hover:after {
+  content: url(imgs/map.png);
+  position: absolute;
+  /*width: 10vw;*/
+  left: -60%;
+  top: 50%;
+  transform: translate(-120%, 8%)
+}
+
 
 .blanket { 
   position: absolute;
   left: 35%;
   top: 0%;
-  height: 21vw;
+  width: 27vw;
   overflow: hidden;
   display: flex;
 }
@@ -46,7 +59,7 @@ img {
 
 .coffee { 
   position: absolute;
-  left: 32%;
+  right: 46%;
   bottom: 0%;
   width: 24vw;
   overflow: hidden;
@@ -63,20 +76,23 @@ img {
 }
 
 
-.wrapper {
+.quote {
   margin: 0 auto;
+  position: absolute;
+  top: 26%;
+  left: 32%;
   max-width: 600px;
-  margin-top: -120px
+  max-height: 400px;
 }
 
 h1, h2 {
   font-weight: normal;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
-  font-size: 70px;
-  line-height: 1.1;
+  font-size: 70px; 
+  line-height: 1.05;
   font-family: 'Poppins', medium;
   margin-bottom: 0;
   color: #023179;
@@ -86,7 +102,8 @@ h2 {
   font-size: 35px;
   font-family: 'Source Han Sans CN Medium';
   color: #16417F;
-  margin-top: -13px;
+  line-height: 0.9;
+ /* margin-top: -13px;*/
 }
 
 
