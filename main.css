@@ -1,7 +1,9 @@
 
 body {
-  background-color: #e2ff59;
+/*  background-color: #e2ff59;*/
   font-family: courier;
+   background: linear-gradient(white, yellow);
+   
 }
 
 .wrapper {
