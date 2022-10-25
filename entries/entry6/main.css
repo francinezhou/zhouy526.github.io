@@ -13,10 +13,18 @@ img {
 }
 
 h1 {
+  font-size: 4vw;
+  font-family: 'Source Han Sans CN Medium';
+
+  line-height: 0.5;
+  
+ /* margin-top: -13px;*/
+}
+h2 {
   font-size: 7vw;
   font-family: 'Source Han Sans CN Medium';
   
-  line-height: 0.9;
+  line-height: 0.2;
   
  /* margin-top: -13px;*/
 }
@@ -99,10 +107,21 @@ padding-top: 60px;
   top: 110%;
   width: 40%;
 padding-top: 60px;
-  z-index: 1
+  z-index: 1;
+  transition: all 0.5s ease;
   /*overflow: hidden;
   display: flex;*/
 }
+
+
+
+
+.swan:hover {
+  -webkit-transform: rotate(20deg) scale(1);
+  transform: rotate(20deg) scale(1);
+  cursor: pointer;
+}
+
 
 .ripple { 
   position: absolute;
