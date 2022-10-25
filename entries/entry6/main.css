@@ -1,0 +1,94 @@
+body {
+height: 1300px;
+background: rgb(214,238,246);
+background: linear-gradient(180deg, rgba(214,238,246,1) 0%, rgba(255,249,244,1) 26%, rgba(255,221,221,1) 44%, rgba(255,249,244,1) 62%, rgba(214,238,246,1) 100%);
+}
+
+img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Source Han Sans CN Medium';
+  
+  line-height: 0.9;
+  
+ /* margin-top: -13px;*/
+}
+
+.title { 
+  position: absolute;
+  right: 1%;
+  top: 5%;
+  width: 35%;
+padding-top: 60px;
+position: fixed;
+  z-index：5
+  /*overflow: hidden;
+  display: flex;*/
+}
+
+.container {
+ display: block;
+}
+
+.trees { 
+  position: absolute;
+  left: 0%;
+  top: 15%;
+ /*padding-top: 100px;*/
+  margin-top: 27px;
+  width: 88%;
+  overflow: hidden;
+  display: flex;
+  z-index: 2
+}
+
+/*.trees {
+ padding-top: 200px;
+ top: 40%;
+
+ z-index: 0;
+}*/
+/*.stairs {
+ top: 20%;
+ z-index: 1;
+}
+*/
+.stairs { 
+	
+  position: absolute;
+  left: 0%;
+  top: 83%;
+
+  width: 90%;
+  z-index: 2
+  /*overflow: hidden;
+  display: flex;*/
+}
+
+.building1 { 
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  width: 20%;
+padding-top: 60px;
+  z-index: 0
+  /*overflow: hidden;
+  display: flex;*/
+}
+.building2 { 
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  width: 20%;
+padding-top: 60px;
+  z-index: 0
+  /*overflow: hidden;
+  display: flex;*/
+}
