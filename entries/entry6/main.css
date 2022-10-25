@@ -13,7 +13,7 @@ img {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 7vw;
   font-family: 'Source Han Sans CN Medium';
   
   line-height: 0.9;
@@ -23,12 +23,12 @@ h1 {
 
 .title { 
   position: absolute;
-  right: 1%;
-  top: 5%;
-  width: 35%;
-padding-top: 60px;
-position: fixed;
-  z-index：5
+  right: 0%;
+  top: 0%;
+  width: 40%;
+margin: -15px;
+/*position: fixed;
+  z-index：5;*/
   /*overflow: hidden;
   display: flex;*/
 }
@@ -92,3 +92,25 @@ padding-top: 60px;
   /*overflow: hidden;
   display: flex;*/
 }
+
+.swan { 
+  position: absolute;
+  left: 40%;
+  top: 110%;
+  width: 40%;
+padding-top: 60px;
+  z-index: 1
+  /*overflow: hidden;
+  display: flex;*/
+}
+
+.ripple { 
+  position: absolute;
+  left: 20%;
+  top: 110%;
+  width: 75%;
+padding-top: 60px;
+  z-index: 0
+  
+}
+
