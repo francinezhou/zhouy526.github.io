@@ -1,0 +1,76 @@
+
+/*body {
+  background-color: pink;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.item {
+  text-align: center;
+   animation: spinType 5s ease-out infinite;
+}
+
+@keyframes spinType {
+0% { transform: rotate(0);
+}
+50% { color: blue;
+
+  
+}
+100% { transform:  rotate(1turn) ;
+}
+}
+*/
+
+
+
+
+
+
+@keyframes yinYangSpin {
+  0% { transform: rotate(0);
+}
+
+  100% { transform:  rotate(1turn) ;
+  }
+}
+
+
+@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #6d79cd;
+  }
+}
+
+#yin-yang {
+  animation: yinYangSpin 5s ease-out infinite;
+  height:500px;
+}
+
+
+#yin-yang path, #yin-yang circle {
+  animation: colorSwap 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
+}
+
+#yin-yang:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+/*basic animation, spins once in one second*/
+div.item {
+  animation: spinType 1s;
+}
