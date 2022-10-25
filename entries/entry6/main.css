@@ -32,14 +32,14 @@ p {
  
 h1 {
   font-size: 6.5vw;
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue',light;
   line-height: 0;
  /* margin-top: -13px;*/
 }
 
 h2 {
   font-size: 4vw;
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue',light;
   line-height: 0.8;
  /* margin-top: -13px;*/
 }
