@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 height: 1300px;
 background: rgb(214,238,246);
@@ -13,28 +25,31 @@ img {
 }
 
 h1 {
-  font-size: 4vw;
-  font-family: 'Source Han Sans CN Medium';
-
-  line-height: 0.5;
-  
- /* margin-top: -13px;*/
-}
-h2 {
   font-size: 7vw;
-  font-family: 'Source Han Sans CN Medium';
+  font-family: 'Helvetica Neue';
   
-  line-height: 0.2;
+  line-height: 0;
   
  /* margin-top: -13px;*/
 }
+
+h2 {
+  font-size: 4vw;
+  font-family: 'Helvetica Neue';
+
+  line-height: 0.8;
+  
+ /* margin-top: -13px;*/
+}
+
 
 .title { 
   position: absolute;
-  right: 0%;
+  right: 1%;
   top: 0%;
   width: 40%;
-margin: -15px;
+/*margin: -5px;*/
+text-align: right;
 /*position: fixed;
   z-index：5;*/
   /*overflow: hidden;
@@ -130,6 +145,12 @@ padding-top: 60px;
   width: 75%;
 padding-top: 60px;
   z-index: 0
-  
+  transition: all 5s ease;
+}
+
+.ripple:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
