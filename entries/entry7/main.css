@@ -111,7 +111,30 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: rgba(204,250,102, 1);
+  /*background: rgba(204,250,102, 1);*/
+  background: linear-gradient(270deg, #b2ffeb, #dce1e6, #fbcbea, #b2aeb0);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 /* X Axis */
 /*.circle:nth-child(1) {transform: rotate3d(1, 0, 0, 0deg);}
