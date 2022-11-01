@@ -1,0 +1,62 @@
+
+body {
+  background-color: lavender;
+}
+
+div {
+  width: 500px;
+  height: 200px;
+}
+
+.static {
+  background-color: blue;
+  position: static;
+}
+
+.rec {
+  height: 500px;
+  width: 200px;
+  background-color: blue;
+ 
+ 
+}
+.relative {
+  background-color: yellow;
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  background-color: green;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.sticky {
+  background-color: red;
+  position: sticky;
+  top: 0;
+}
+
+.fixed-circle {
+  height: 70px;
+  width: 70px;
+  background-color: #bbb;
+  border-radius: 50%;
+  
+  bottom: 30px;
+  right: 60px;
+}
+
+.fixed-rec {
+  height: 130px;
+  width: 200px;
+  background-color: #bbb;
+ 
+  left: 200px;
+  top: 250px;
+}
