@@ -37,12 +37,32 @@ div.item {
   animation: spinType 1s;
 }*/
 
+body {
+  font-family:  'Heiti SC','黑体-简';
+  font-size: 13.2px;
+  color: white;
+}
+
+.time-place {
+  font-family:  'Heiti SC','黑体-简';
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    right: 0%;
+    top: 0%;
+    z-index: 0;
+}
 
 
+.quote {
+  font-family:  'Heiti SC','黑体-简';
 
-
-
-
+  position: fixed;
+  width: 25px;
+    right: 20%;
+    top: 40%;
+    z-index: 0;
+}
 
 
 * {
@@ -64,7 +84,7 @@ div.item {
 }
 
 html {
-  background: black;
+  background: darkgray;
 }
 
 .scene {
@@ -128,5 +148,18 @@ html {
 .sphere:hover {
   animation-play-state: paused;
   cursor: pointer;
+}
+
+.stick {
+  position: fixed;
+  
+    left: 50%;
+    top: 40%;
+  width: 10px;
+  height: 150px;
+  background-color: black;
+  left: 50%;
+    top: 50%;
+    z-index: -1;
 }
 
