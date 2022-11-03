@@ -2,7 +2,7 @@
 body {
 /*  background-color: #e2ff59;*/
   font-family: courier;
-   background: linear-gradient(white, yellow);
+   background: linear-gradient(white, #CBC3E3);
    
 }
 
@@ -35,11 +35,21 @@ h3 {
 
 .about {
   position: absolute;
-  width: 300px;
+  width: 350px;
   top: 10%;
-  right: 4%;
+  right: 2%;
   display: none;
 }
 
 .heading:hover ~ .about {
   display: block;
+}
+
+.metro {
+  text-align: center;
+  padding: 50px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
