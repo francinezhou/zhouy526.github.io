@@ -79,8 +79,8 @@ img {
 .quote {
   margin: 0 auto;
   position: absolute;
-  top: 26%;
-  left: 32%;
+  top: 27%;
+  left: 30%;
   max-width: 600px;
   max-height: 400px;
 }
@@ -88,19 +88,21 @@ img {
 h1, h2 {
   font-weight: normal;
   text-align: left;
+  font-family: 'Yatra One', cursive;
 }
 
 h1 {
-  font-size: 70px; 
-  line-height: 1.05;
-  font-family: 'Poppins', medium;
+  font-size: 85px; 
+  line-height: 1;
+  /*font-family: 'Poppins', medium;*/
   margin-bottom: 0;
   color: #023179;
+  /*text-transform: uppercase;*/
 }
 
 h2 {
-  font-size: 35px;
-  font-family: 'Source Han Sans CN Medium';
+  font-size: 30px;
+  /*font-family: 'Source Han Sans CN Medium';*/
   color: #16417F;
   line-height: 0.9;
  /* margin-top: -13px;*/
