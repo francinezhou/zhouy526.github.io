@@ -1,36 +1,5 @@
 /*
-@keyframes yinYangSpin {
-  0% { transform: rotate(0);
-}
 
-  100% { transform:  rotate(1turn) ;
-  }
-}
-
-
-@keyframes colorSwap {
-  0% {
-    fill: default;
-  }
-  100% {
-    fill: #6d79cd;
-  }
-}
-
-#yin-yang {
-  animation: yinYangSpin 5s ease-out infinite;
-  height:500px;
-}
-
-
-#yin-yang path, #yin-yang circle {
-  animation: colorSwap 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
-}
-
-#yin-yang:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
 
 /*basic animation, spins once in one second*/
 div.item {
@@ -39,7 +8,6 @@ div.item {
 
 body {
   font-family:  'Heiti SC','黑体-简';
-  font-size: 13.2px;
   color: white;
 }
 
@@ -47,6 +15,7 @@ body {
   font-family:  'Heiti SC','黑体-简';
     margin: 0;
     padding: 5px;
+    font-size: 1.5vw;
     text-align: right;
     right: 0%;
     top: 0%;
@@ -56,12 +25,13 @@ body {
 
 .quote {
   font-family:  'Heiti SC','黑体-简';
-
   position: fixed;
+  font-size: 3vw;
+  padding: 5px;
   width: 25px;
-    right: 20%;
-    top: 40%;
-    z-index: 0;
+  right: 20%;
+  top: 40%;
+  z-index: 0;
 }
 
 
@@ -69,13 +39,6 @@ body {
   margin: 0;
   padding: 0;
 }
-/* Rotate Sphere animation */
-/*@-webkit-keyframes animateSphere {
-  0% { transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); }
-  50% { transform: rotateY(360deg) rotateX(360deg) rotateZ(0deg); }
-  100% { transform: rotateY(720deg) rotateX(720deg) rotateZ(360deg); }
-}
-*/
 
 @-webkit-keyframes animateSphere {
   0% { transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg); }
@@ -95,8 +58,8 @@ html {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   transform-style: preserve-3d;
   animation-name: animateSphere; 
   animation-duration: 30s;
@@ -159,8 +122,8 @@ html {
 .light {
    margin: auto;
    border-radius: 50%;
-   width: 300px;
-   height: 300px;
+   width: 350px;
+   height: 350px;
   box-shadow: 10px 1px 30px white;
 } 
 /* Clip the sphere a bit */
@@ -174,15 +137,14 @@ html {
 }
 
 .stick {
-  position: fixed;
-  
-    left: 50%;
-    top: 40%;
+  position: absolute;
+  left: 50%;
+  top: 43%;
   width: 10px;
-  height: 350px;
+  height: 400px;
   background-color: black;
   left: 50%;
-    top: 45%;
-    z-index: -1;
+  top: 45%;
+  z-index: -1;
 }
 
