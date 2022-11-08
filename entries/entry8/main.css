@@ -56,6 +56,42 @@ img{
     font-family: 'PT Mono', monospace;
 }*/
 
+/*weep*/
+.imgsec-weep {
+    position: relative;
+    left: 20%;
+}
+
+.weep1 {
+    position: relative;
+    height: 350px;
+}
+
+.weep2 {
+    position: relative;
+    height: 350px;
+}
+
+.weep3 {
+    position: relative;
+    height: 350px;
+}
+
+
+.text-weep {
+    position: relative;
+    left: 20%;
+}
+
+.desc-weep{
+    display: none;
+    position: fixed;
+    top: 30%;
+}
+.section-weep:hover .desc-weep {
+    display: inline-block;
+}
+
 
 /*weep*/
 .imgsec-weep {
@@ -72,6 +108,12 @@ img{
     position: relative;
     height: 350px;
 }
+
+.weep3 {
+    position: relative;
+    height: 350px;
+}
+
 
 .text-weep {
     position: relative;
@@ -152,6 +194,33 @@ img{
     display: inline-block;
 }
 
+
+/*magnolia*/
+.imgsec-magnolia {
+    position: relative;
+    text-align: right;
+}
+
+.magnolia1 {
+    position: relative;
+    height: 500px;
+    right: 10%;
+}
+
+.text-magnolia {
+    position: relative;
+    left: 10%;
+}
+
+.desc-magnolia{
+    display: none;
+    position: fixed;
+    top: 30%;
+}
+
+.section-magnolia:hover .desc-magnolia {
+    display: inline-block;
+}
 
 
 
