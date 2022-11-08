@@ -10,31 +10,156 @@
     font-style: normal;
 }
 
+
 h1{
+ font-family: Helvetica Neue;
+
+}
+
+body{
  font-family: Helvetica Neue;
 }
 
 p{
- font-family: Helvetica Neue;
+    font-family: Helvetica Neue;
+   
+}
+img{
+   height: 100%;
+}
+.container{
 }
 
-.date {
-  position: fixed;
-  text-align: right;
-  right: 1%;
-  top: 1%;
-  font-size: 34px;
-  opacity: 1;
-  color: black;
-  z-index: 1;
-  /*background: linear-gradient(to left, darkblue,slategrey,lightgrey,yellow);
-  background-size: 200% 200%;
-  animation: rainbow 2s ease-in-out infinite;
-  background-clip: text;
-  -webkit-background-clip:text;
-  color:rgba(0,0,0,1);
-  transition: color 2s ease-in-out;*/
+.section {
+    display: flex;
+    flex-direction: column; 
 }
+
+.text{
+    display: block;
+    height:15vh;
+    margin: 20px;
+    padding: 10px;
+    font-size: 2em;
+    font-family: 'PT Mono', monospace;
+    z-index: 1;
+}
+
+.desc {
+    margin: -15px;
+    padding: 5px;
+    font-family: Helvetica Neue;
+}
+
+/*
+.time {
+    font-family: 'PT Mono', monospace;
+}*/
+
+
+/*weep*/
+.imgsec-weep {
+    position: relative;
+    left: 20%;
+}
+
+.weep1 {
+    position: relative;
+    height: 350px;
+}
+
+.weep2 {
+    position: relative;
+    height: 350px;
+}
+
+.text-weep {
+    position: relative;
+    left: 20%;
+}
+
+.desc-weep{
+    display: none;
+    position: fixed;
+    top: 30%;
+}
+.section-weep:hover .desc-weep {
+    display: inline-block;
+}
+
+
+
+/*dog*/
+.imgsec-dog {
+    position: relative;
+    left: 10%;
+}
+
+.dog1 {
+    position: relative;
+    height: 270px;
+}
+
+.dog2 {
+    position: relative;
+    height: 270px;
+}
+
+.dog3 {
+    position: relative;
+    height: 270px;
+}
+
+.text-dog {
+    position: relative;
+    left: 10%;
+}
+.desc-dog{
+    display: none;
+    position: fixed;
+    top: 30%;
+}
+
+.section-dog:hover .desc-dog {
+    display: inline-block;
+}
+
+
+/*sunset*/
+.imgsec-sunset {
+    position: relative;
+    text-align: right;
+}
+
+.sunset1 {
+    position: relative;
+    height: 500px;
+    right: 10%;
+}
+
+.text-sunset {
+    position: relative;
+    left: 10%;
+}
+
+.desc-sunset{
+    display: none;
+    position: fixed;
+    top: 30%;
+}
+
+.section-sunset:hover .desc-sunset {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
 
 .bottombar {
     width: 100vw;
@@ -48,7 +173,7 @@ p{
     color: #000000;
 }
 
-.menu-container {
+.menu-container1 {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -64,8 +189,45 @@ p{
 .menu-group {
     padding-left:8px;
     padding-right:8px;
-    margin-top: -5px; 
+    margin-top: -7px; 
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.menu-container1:before {
+  /*content: '2';*/
+/*  font-size: 100%;*/
+  animation-name: change-letter;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change-letter {
+  0% {
+    content: "3"
+   
+  }
+  
+  50% {
+ 
+    content: "3"
+  }
+
+  75% {
+
+    content: "3"
+  }
+/*  0% {
+    opacity: 0;
+    content: "2"
+  }
+}
+*/
+
+  transition: width 2s, height 2.5s;
+
+  .t:hover {
+  width: 150px;
+  height:250px;
 }
