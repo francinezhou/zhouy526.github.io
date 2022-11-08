@@ -181,7 +181,7 @@ img{
 
 .text-sunset {
     position: relative;
-    left: 10%;
+    left: 25%;
 }
 
 .desc-sunset{
@@ -198,13 +198,13 @@ img{
 /*magnolia*/
 .imgsec-magnolia {
     position: relative;
-    text-align: right;
+    text-align: center;
 }
 
 .magnolia1 {
     position: relative;
     height: 500px;
-    right: 10%;
+    left: 5%;
 }
 
 .text-magnolia {
