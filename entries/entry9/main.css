@@ -18,6 +18,15 @@ body {
   height: 100vh;
 }
 
+.tree {
+  
+  position: relative;
+  left: 0;
+  top: 0;
+  background: black;
+  z-index: 1;
+}
+
 .blob {
       position: absolute;
       width: 220px;
