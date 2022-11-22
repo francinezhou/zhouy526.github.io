@@ -13,8 +13,8 @@ body.addEventListener("click", turnNight);
 
 // place our blobs randomly
   blobs.forEach(function (blob) {
-    blob.style.right = (80 * Math.random()) + '%';
-    blob.style.top = (50 * Math.random()) + '%';
+    blob.style.right = (100 * Math.random()) + '%';
+    blob.style.top = (150 * Math.random()) + '%';
   });
 
 body.addEventListener("click", blob);

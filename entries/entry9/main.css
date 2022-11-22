@@ -15,7 +15,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 200vh;
+  z-index: 1;
 }
 
 .time-place {
@@ -32,14 +33,15 @@ body {
 
 .tree {
   display: block;
-  position: relative;
+  position: absolute;
   left: 0%;
   top: 0%;
-  color: white;
-  z-index: 1;
+  fill: rgb(255,255,197);
+     
+  z-index: -1;
   width: 200px;
   filter:blur(1px);
-  width: 500px;
+  width: 800px;
 }
 
 .quote {
@@ -72,7 +74,7 @@ body {
       width: 220px;
       height: 200px;
       opacity: 90%;
-      background: darkgray;
+      fill: darkgray;
       border-radius: 50%;
       mix-blend-mode:multiply;
       /*filter: blur(8px);*/
