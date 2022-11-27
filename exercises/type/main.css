@@ -1,0 +1,30 @@
+@font-face {
+	font-family: DinkieBitmap-9pxDemo;
+		src: url('DinkieBitmap-9pxDemo.eot');
+    	src: url('DinkieBitmap-9pxDemo.eot?#iefix') format('embedded-opentype'),
+        	 url('DinkieBitmap-9pxDemo.woff') format('woff'),
+        	 url('DinkieBitmap-9pxDemo.woff2') format('woff2'),
+        	 url('DinkieBitmap-9pxDemo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'Crimson Pro', serif;
+}
+
+.content {
+	font-family:  'courier';
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h1, h2 {
+	font-weight: 400;
+}

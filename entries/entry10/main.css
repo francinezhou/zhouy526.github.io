@@ -46,13 +46,12 @@ body {
 
 .quote {
   display: block;
-  position: relative;
-  left: 50%;
+  position: fixed;
+  left: 40%;
   top: 50%;
   color: white;
   z-index: 1;
-  width: 200px;
-  
+  text-align: center;
 }
 
 
