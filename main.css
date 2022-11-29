@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
 /*  background-color: #e2ff59;*/
-  font-family: courier;
+  font-family: Helvetica Neue;
    background: linear-gradient(white, #CBC3E3);
    
 }
