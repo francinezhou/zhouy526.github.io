@@ -2,8 +2,6 @@ let body = document.body;
 let blobs = document.querySelectorAll(".blob");
 let container = document.querySelector(".wrapper");
 
-
-
   function turnNight() {
   body.classList.toggle("bodyNight");
   blob.classList.toggle("blobNight");
@@ -17,7 +15,6 @@ body.addEventListener("click", turnNight);
     blob.style.top = (150 * Math.random()) + '%';
   });
 
-body.addEventListener("click", blob);
 
   // container.addEventListener("click", function (event) {
   //   if (event.target.classList.contains("blob")) {
