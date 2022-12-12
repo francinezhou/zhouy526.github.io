@@ -53,6 +53,14 @@ h4 {
   line-height: 1;
 }
 
+.navigation {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 10px;
+    z-index: 10;
+}
+
 .menuwrap {
     position: fixed;
     background-color: #fcfaf7;
