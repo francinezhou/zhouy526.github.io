@@ -165,7 +165,7 @@ td {
     z-index: 6;
 }
 
-.light0, .light1, .light5, .light6, .light7{
+.light0, .light1, .light5, .light6, .light7, .light9{
     width: 20px;
     height: 20px;
     box-shadow: inset 0 1px 4px 3.5px #ff85cd;
