@@ -16,7 +16,7 @@ body {
    line-height: 0.5;
    font-size: 15px;
    margin: 0;
-   background-color: #f4f4f4
+   background-color: #f4f4f4;
 }
 
 .wrapper {
@@ -71,7 +71,7 @@ h4 {
   margin-right: auto;
   width: 650px;
   height: 350px;
-  background-color: rgb(203, 195, 227);
+  background-color: lightgrey;
   padding: 30px;
   margin-top: 130px;
 }
@@ -117,16 +117,28 @@ button:hover {
   color: white;
 }
 
-.xujiahui {
+.wulumuqi {
   position: absolute;
   top: 10%;
-  left: 70%;
+  left: 72%;
 }
 
-.moon {
+.gelato {
   position: absolute;
   top: 25%;
-  left: 70%;
+  left: 72%;
+}
+
+.fuxing {
+  position: absolute;
+  top: 40%;
+  left: 72%;
+}
+
+.tree {
+  position: absolute;
+  top: 55%;
+  left: 72%;
 }
 
 
