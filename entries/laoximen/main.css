@@ -117,29 +117,12 @@ button:hover {
   color: white;
 }
 
-.acid {
+.cool-docks {
   position: absolute;
   top: 10%;
   left: 72%;
 }
 
-.rooftop {
-  position: absolute;
-  top: 25%;
-  left: 72%;
-}
-
-.fuxing {
-  position: absolute;
-  top: 40%;
-  left: 72%;
-}
-
-.tree {
-  position: absolute;
-  top: 55%;
-  left: 72%;
-}
 
 
 /*interior*/
