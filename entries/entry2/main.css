@@ -20,6 +20,14 @@ img {
   object-fit: cover;
 }
 
+.navigation {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 10px;
+    z-index: 10;
+}
+
 .place-time {
   position: absolute;
   top: 8px;

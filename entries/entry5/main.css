@@ -10,6 +10,16 @@ p {
   font-size:  12px;
 }
 
+.navigation {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    padding-top: 16px;
+    z-index: 1;
+    font-size:  12px;
+    font-family: 'PT Mono', monospace;
+}
+
 .place-time {
   width: 160px;
   position: fixed;
