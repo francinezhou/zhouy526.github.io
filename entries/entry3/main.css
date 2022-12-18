@@ -21,6 +21,16 @@ h1 {
 	font-size: 50px;
  }
 
+.navigation {
+  position: fixed;
+  font-family:  'Heiti SC','黑体-简';
+    
+    left: 1%;
+    top: 1%;
+
+}
+
+
 .time-place {
   position: fixed;
   text-align: right;

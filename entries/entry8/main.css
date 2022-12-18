@@ -30,6 +30,14 @@ img{
 .container{
 }
 
+.navigation {
+  position: absolute;
+  font-family:  Helvetica Neue;
+    
+    left: 1%;
+    top: 1%;
+
+}
 .section {
     display: flex;
     flex-direction: column; 
