@@ -10,8 +10,19 @@ body {
   font-family:  'Heiti SC','黑体-简';
   color: white;
 }
+.navigation {
+  position: absolute;
+  font-family:  'Heiti SC','黑体-简';
+    margin: 0;
+    padding: 5px;
+    font-size: 1.5vw;
+    left: 0%;
+    top: 0%;
+    z-index: 0;
+}
 
 .time-place {
+  position: absolute;
   font-family:  'Heiti SC','黑体-简';
     margin: 0;
     padding: 5px;
